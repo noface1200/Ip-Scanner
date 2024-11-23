@@ -10,11 +10,9 @@ A Python-based IP scanner that randomly generates IP addresses and checks if the
 - Uses the `requests` library for HTTP requests.
 
 ## Requirements
-```shell
-pip install -r requirements.txt
-```
+None All Dependincies Come With Cpython
 
-Run the IP scanner script:
+Run the script:
 ```shell
 python ip_scanner.py
 ```
