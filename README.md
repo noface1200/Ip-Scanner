@@ -1,5 +1,12 @@
 # IP Scanner
 
+## UPDATE 2 | 23rd November
+- Added Ip Sweeping
+- Removed Colorama And Replaced It With Ansi escape codes
+- Removed Requests Lib
+
+## Main
+
 A Python-based IP scanner that randomly generates IP addresses and checks if there valid by sending a ping request. Valid IPs (those that respond) are logged in a file (`valid.txt`). Invalid IPs are displayed as denied in the console.
 
 ## Features
@@ -12,6 +19,7 @@ A Python-based IP scanner that randomly generates IP addresses and checks if the
 ## Requirements
 None All Dependincies Come With Cpython
 
+## Run The Script
 Run the script:
 ```shell
 python ip_scanner.py
